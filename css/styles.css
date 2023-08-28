@@ -120,12 +120,11 @@ button {
 }
 .studio-nav-link::after {
   content: '';
-  width: 48px;
+  width: 100%;
   height: 4px;
   color: var(--active-color);
   background-color: var(--active-color);
   border-radius: 2px;
-  opacity: 1;
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -133,7 +132,7 @@ button {
 
 .portfolio-nav-link::after {
   content: '';
-  width: 66px;
+  width: 100%;
   height: 4px;
   background-color: var(--active-color);
   border-radius: 2px;
@@ -153,7 +152,7 @@ button {
 
 .contacts-nav-link::after {
   content: '';
-  width: 67px;
+  width: 100%;
   height: 4px;
   background-color: var(--active-color);
   border-radius: 2px;
@@ -197,7 +196,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-image.jpg);
+    url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
